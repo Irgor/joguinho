@@ -1,4 +1,4 @@
-//tamanho de tuo
+﻿//tamanho de tuo
 var quad = 30;
 
 //mundo
@@ -68,7 +68,7 @@ function game() {
     ctx.fillRect(0, chao, canvas.width, quad * 2);
 
     //desenha o personagen
-    ctx.fillStyle = "yellow";
+    ctx.fillStyle = "blue";
     ctx.fillRect(px * quad, py, quad, quad);
 
     //borda personagem
